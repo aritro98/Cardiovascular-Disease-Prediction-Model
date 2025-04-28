@@ -1,1 +1,1 @@
-# Mini-Project-Cardiovascular-Disease-Prediction-Model
+# Cardiovascular Disease Prediction Model
