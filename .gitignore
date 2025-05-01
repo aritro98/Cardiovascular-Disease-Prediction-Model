@@ -1,0 +1,24 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Python envs
+env/
+venv/
+*.egg-info/
+
+# Model artifacts
+models/*.pkl
+
+# Logs
+*.log
