@@ -9,16 +9,10 @@ __pycache__/
 # VSCode settings
 .vscode/
 
-# Mac system files
-.DS_Store
-
 # Python envs
 env/
 venv/
 *.egg-info/
-
-# Model artifacts
-models/*.pkl
 
 # Logs
 *.log
