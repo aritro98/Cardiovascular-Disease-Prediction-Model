@@ -137,3 +137,12 @@ Build a pandas DataFrame matching the model’s feature set (exclude `patientid`
 | Support Vector Machine (SVM)   |     0.83 |      0.82 |   0.84 |     0.83 |
 | CatBoost                       |     0.86 |      0.85 |   0.87 |     0.86 |
 | Ensemble Learning              |     0.88 |      0.87 |   0.89 |     0.88 |
+
+## Future Scope
+- **Deploy as a Web Service**: Containerize the model with Docker and serve via Flask/FastAPI or Streamlit for real‑time predictions.
+- **Mobile Integration**: Build a mobile app (iOS/Android) that collects user vitals and returns CVD risk on the fly.
+- **Extended Feature Engineering**: Incorporate additional biomarkers (e.g. cholesterol subtypes, C‑reactive protein) and lifestyle data (diet, sleep) to improve predictive power.
+- **Deep Learning Models**: Experiment with neural architectures (e.g. feed‑forward, autoencoders) to capture non‑linear interactions.
+- **Explainability & Fairness**: Integrate SHAP or LIME explanations, and audit model performance across demographic groups to ensure equity.
+- **Continuous Learning Pipeline**: Set up an automated workflow (using Airflow or Kubeflow) to retrain the model as new patient data arrives.
+- **Integration with EHR Systems**: Connect predictions to Electronic Health Record platforms for seamless clinical decision support.
