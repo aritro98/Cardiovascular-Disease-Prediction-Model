@@ -129,14 +129,15 @@ Build a pandas DataFrame matching the model’s feature set (exclude `patientid`
 ## Results & Evaluation
 | Model                          | Accuracy | Precision | Recall | F1‑Score |
 |--------------------------------|---------:|----------:|-------:|---------:|
-| Logistic Regression            |     0.82 |      0.81 |   0.84 |     0.82 |
-| K‑Nearest Neighbors            |     0.79 |      0.77 |   0.79 |     0.78 |
-| Decision Tree                  |     0.75 |      0.73 |   0.76 |     0.74 |
-| Random Forest                  |     0.85 |      0.84 |   0.86 |     0.85 |
-| Naïve Bayes                    |     0.78 |      0.76 |   0.79 |     0.77 |
-| Support Vector Machine (SVM)   |     0.83 |      0.82 |   0.84 |     0.83 |
-| CatBoost                       |     0.86 |      0.85 |   0.87 |     0.86 |
-| Ensemble Learning              |     0.88 |      0.87 |   0.89 |     0.88 |
+| Logistic Regression            |     0.967 |      0.965 |   0.974 |     0.965 |
+| K‑Nearest Neighbors            |     0.941 |      0.95 |   0.955 |     0.955 |
+| Decision Tree                  |     0.963 |      0.945 |   0.945 |     0.945 |
+| Random Forest                  |     0.976 |      0.98 |   0.98 |     0.98 |
+| Naïve Bayes                    |     0.947 |      0.975 |   0.97 |     0.975 |
+| Support Vector Machine (SVM)   |     0.967 |      0.923 |   0.91 |     0.936 |
+| Gradient Boost                 |     0.984 |      0.975 |   0.975 |     0.975 |
+| CatBoost                       |     0.984 |      0.97 |   0.97 |     0.97 |
+| Ensemble Learning              |     0.985 |      0.985 |   0.985 |     0.985 |
 
 ## Future Scope
 - **Deploy as a Web Service**: Containerize the model with Docker and serve via Flask/FastAPI or Streamlit for real‑time predictions.
