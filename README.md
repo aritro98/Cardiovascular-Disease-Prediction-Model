@@ -125,3 +125,15 @@ Build a pandas DataFrame matching the model’s feature set (exclude `patientid`
    risk = "High risk of CVD" if prediction[0] == 1 else "Low risk of CVD"
    print(risk)
    ```
+
+## Results & Evaluation
+| Model                          | Accuracy | Precision | Recall | F1‑Score |
+|--------------------------------|---------:|----------:|-------:|---------:|
+| Logistic Regression            |     0.82 |      0.81 |   0.84 |     0.82 |
+| K‑Nearest Neighbors            |     0.79 |      0.77 |   0.79 |     0.78 |
+| Decision Tree                  |     0.75 |      0.73 |   0.76 |     0.74 |
+| Random Forest                  |     0.85 |      0.84 |   0.86 |     0.85 |
+| Naïve Bayes                    |     0.78 |      0.76 |   0.79 |     0.77 |
+| Support Vector Machine (SVM)   |     0.83 |      0.82 |   0.84 |     0.83 |
+| CatBoost                       |     0.86 |      0.85 |   0.87 |     0.86 |
+| Ensemble Learning              |     0.88 |      0.87 |   0.89 |     0.88 |
