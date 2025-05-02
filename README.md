@@ -63,3 +63,14 @@ The dataset (`Cardiovascular_Disease_Dataset.csv`) contains the following column
 | slope              | categorical| 0, 1, 2, 3                      | Slope of the peak exercise ST segment (encoded)      |
 | noofmajorvessels   | categorical| 0, 1, 2, 3                      | Number of major vessels (0–3) colored by fluoroscopy|
 | target             | binary     | 0 = no CVD; 1 = presence of CVD  | Diagnosis of cardiovascular disease (label)         |
+
+## Technologies Used
+- **Python** (≥ 3.8) – Core language for data processing & modeling
+- **Pandas** – Data manipulation & analysis
+- **NumPy** – Numerical computing
+- **Scikit‑learn** – Model training, evaluation & preprocessing
+- **CatBoost** – Gradient‑boosted decision trees for classification
+- **Joblib** – Model serialization & deserialization
+- **Matplotlib** – Plotting EDA visuals
+- **Seaborn** – Statistical data visualization
+- **Jupyter Notebook** – Interactive development environment
