@@ -1,5 +1,7 @@
 # Cardiovascular Disease Prediction Model
 
+A predictive analytics solution that leverages machine learning to assess an individual’s risk of cardiovascular disease based on routine health measurements. By comparing multiple classification algorithms and combining them into a robust ensemble, this project delivers both high accuracy and actionable insights for early intervention.  
+
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Project Workflow](#project-workflow)
