@@ -74,3 +74,17 @@ The dataset (`Cardiovascular_Disease_Dataset.csv`) contains the following column
 - **Matplotlib** – Plotting EDA visuals
 - **Seaborn** – Statistical data visualization
 - **Jupyter Notebook** – Interactive development environment
+
+## Installation and Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aritro98/Mini-Project-Cardiovascular-Disease-Prediction-Model.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Mini-Project-Cardiovascular-Disease-Prediction-Model
+   ```
+3. Install the required Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
