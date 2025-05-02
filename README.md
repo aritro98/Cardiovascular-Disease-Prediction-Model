@@ -44,3 +44,22 @@ The main workflow—including data cleaning, EDA, feature engineering, hyperpara
     - Save all the models to `models/`
 
 All steps are executed in the merged notebook: `notebooks/Mini_Project.ipynb`.
+
+## Dataset Description
+The dataset (`Cardiovascular_Disease_Dataset.csv`) contains the following columns:
+| Column             | Type       | Range / Categories               | Description                                         |
+|--------------------|------------|----------------------------------|-----------------------------------------------------|
+| patientid          | integer    | 103,368 – 9,990,855              | Unique patient record identifier                    |
+| age                | integer    | 20 – 80                          | Age in years                                        |
+| gender             | categorical| 0 = female; 1 = male             | Patient gender                                      |
+| chestpain          | categorical| 0, 1, 2, 3                      | Chest pain type (encoded)                           |
+| restingBP          | integer    | 94 – 200 mm Hg                   | Resting blood pressure (systolic)                   |
+| serumcholestrol    | integer    | 0 – 602 mg/dL                    | Serum cholesterol level                             |
+| fastingbloodsugar  | binary     | 0 = ≤120 mg/dL; 1 = >120 mg/dL   | Fasting blood sugar indicator                       |
+| restingrelectro    | categorical| 0, 1, 2                         | Resting electrocardiographic results (encoded)       |
+| maxheartrate       | integer    | 71 – 202 beats/min               | Maximum heart rate achieved                         |
+| exerciseangia      | binary     | 0 = no; 1 = yes                  | Exercise-induced angina                             |
+| oldpeak            | float      | 0.0 – 6.2                        | ST depression induced by exercise relative to rest  |
+| slope              | categorical| 0, 1, 2, 3                      | Slope of the peak exercise ST segment (encoded)      |
+| noofmajorvessels   | categorical| 0, 1, 2, 3                      | Number of major vessels (0–3) colored by fluoroscopy|
+| target             | binary     | 0 = no CVD; 1 = presence of CVD  | Diagnosis of cardiovascular disease (label)         |
