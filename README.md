@@ -88,3 +88,34 @@ The dataset (`Cardiovascular_Disease_Dataset.csv`) contains the following column
    ```bash
    pip install -r requirements.txt
    ```
+
+## Usage
+1. Launch Jupyter Notebook
+   ```bash
+   jupyter notebook
+   ```
+   Open `notebooks/Mini_Project.ipynb` to run the full pipeline.
+2. Load the saved models (For example: svm_CVD.pkl)
+   ```python
+   import joblib
+   model = joblib.load("models/svm_CVD.pkl")
+   ```
+3. Prepare input data
+Build a pandas DataFrame matching the model’s feature set (exclude `patientid` and `target`):
+   ```python
+   import pandas as pd
+   sample = pd.DataFrame([{
+       "age": 53,
+       "gender": 1,
+       "chestpain": 2,
+       "restingBP": 120,
+       "serumcholestrol": 158,
+       "fastingbloodsugar": 0,
+       "restingrelectro": 1,
+       "maxheartrate": 147,
+       "exerciseangia": 0,
+       "oldpeak": 5.3,
+       "slope": 3,
+       "noofmajorvessels": 3
+   }])
+   ```
