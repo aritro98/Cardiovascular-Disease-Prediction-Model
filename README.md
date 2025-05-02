@@ -119,3 +119,9 @@ Build a pandas DataFrame matching the model’s feature set (exclude `patientid`
        "noofmajorvessels": 3
    }])
    ```
+4. Make predictions
+   ```python
+   prediction = model.predict(sample)
+   risk = "High risk of CVD" if prediction[0] == 1 else "Low risk of CVD"
+   print(risk)
+   ```
