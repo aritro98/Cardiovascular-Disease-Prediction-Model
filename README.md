@@ -24,7 +24,7 @@ Predict the presence of cardiovascular disease using patient health metrics. We 
 - **CatBoost**  
 - **Voting Ensemble**
 
-The main workflow—including data cleaning, EDA, feature engineering, hyperparameter tuning, and final ensemble—is consolidated in `notebooks/Mini_Project.ipynb`.
+The main workflow including data cleaning, EDA, feature engineering, hyperparameter tuning, and final ensemble is consolidated in `notebooks/Mini_Project.ipynb`.
 
 ## Project Workflow
 1. **Data Cleaning & Preprocessing**
