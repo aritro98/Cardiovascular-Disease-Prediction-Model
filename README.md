@@ -105,7 +105,7 @@ Build a pandas DataFrame matching the model’s feature set (exclude `patientid`
    ```python
    import pandas as pd
    sample = pd.DataFrame([{
-       "age": 53,
+       "age": 150,
        "gender": 1,
        "chestpain": 2,
        "restingBP": 120,
