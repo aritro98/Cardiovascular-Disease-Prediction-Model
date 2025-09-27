@@ -3,8 +3,8 @@
 A predictive analytics solution that leverages machine learning to assess an individual’s risk of cardiovascular disease based on routine health measurements. By comparing multiple classification algorithms and combining them into a robust ensemble, this project delivers both high accuracy and actionable insights for early intervention.  
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Project Workflow](#project-workflow)
+1. [Overview](#overview)
+2. [Workflow](#workflow)
 3. [Dataset Description](#dataset-description)
 4. [Technologies Used](#technologies-used)
 5. [Installation and Setup](#installation-and-setup)
@@ -12,7 +12,7 @@ A predictive analytics solution that leverages machine learning to assess an ind
 7. [Results & Evaluation](#results-&-evaluation)
 8. [Future Scope](#future-scope)
 
-## Project Overview  
+## Overview  
 Predict the presence of cardiovascular disease using patient health metrics. We built, compared, and ensembled multiple ML models to achieve robust performance:
 
 - **Logistic Regression**  
@@ -26,7 +26,7 @@ Predict the presence of cardiovascular disease using patient health metrics. We 
 
 The main workflow including data cleaning, EDA, feature engineering, hyperparameter tuning, and final ensemble is consolidated in `notebooks/Mini_Project.ipynb`.
 
-## Project Workflow
+## Workflow
 1. **Data Cleaning & Preprocessing**
     - Handle missing values
     - Outlier removal
