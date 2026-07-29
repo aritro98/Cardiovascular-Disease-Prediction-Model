@@ -9,7 +9,7 @@ A predictive analytics solution that leverages machine learning to assess an ind
 4. [Technologies Used](#technologies-used)
 5. [Installation and Setup](#installation-and-setup)
 6. [Usage](#usage)
-7. [Results & Evaluation](#results-&-evaluation)
+7. [Results and Evaluation](#results-and-evaluation)
 8. [Future Scope](#future-scope)
 
 ## Overview  
@@ -27,6 +27,7 @@ Predict the presence of cardiovascular disease using patient health metrics. We 
 The main workflow including data cleaning, EDA, feature engineering, hyperparameter tuning, and final ensemble is consolidated in `notebooks/Mini_Project.ipynb`.
 
 ## Workflow
+<img width="200" align="right" alt="image" src="https://github.com/user-attachments/assets/8dcbd993-ba55-4a94-97d9-4ae7b5d694db"/><img width="200" align="right" alt="image" src="https://github.com/user-attachments/assets/3a3cdff7-8529-497b-8dd4-95e0c1729497"/>
 1. **Data Cleaning & Preprocessing**
     - Handle missing values
     - Outlier removal
@@ -34,13 +35,13 @@ The main workflow including data cleaning, EDA, feature engineering, hyperparame
 2. **Exploratory Data Analysis**
     - Univariate & bivariate plots
     - Correlation heatmap
-3. Model Training
+3. **Model Training**
     - Train 7 individual classifiers with cross-validation
     - Hyperparameter tuning via GridSearchCV
-4. Ensemble Learning
+4. **Ensemble Learning**
     - Combine top-performing models in a VotingClassifier
     - Evaluate ensemble performance
-5. Serialization
+5. **Serialization**
     - Save all the models to `models/`
 
 All steps are executed in the merged notebook: `notebooks/Mini_Project.ipynb`.
@@ -126,7 +127,7 @@ Build a pandas DataFrame matching the model’s feature set (exclude `patientid`
    print(risk)
    ```
 
-## Results & Evaluation
+## Results and Evaluation
 | Model                          | Accuracy | Precision | Recall | F1‑Score |
 |--------------------------------|---------:|----------:|-------:|---------:|
 | Logistic Regression            |     0.967 |      0.965 |   0.974 |     0.965 |
